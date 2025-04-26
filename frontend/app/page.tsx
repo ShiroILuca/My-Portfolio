@@ -94,7 +94,7 @@ const Portfolio = () => {
               {/* プロフィール画像を表示する部分 */}
               <div className="w-full h-full flex items-center justify-center text-white text-xl">
                 <Image
-                  src="/api/placeholder/600/800"
+                  src="/IMG_3597.png"
                   alt="Profile"
                   width={600}
                   height={800}
@@ -130,8 +130,8 @@ const Portfolio = () => {
             <div className="bg-[#e8d0d0] overflow-hidden rounded-lg shadow-lg">
               <div className="h-64 bg-gray-300">
                 <Image
-                  src="/api/placeholder/600/400"
-                  alt="Todo App"
+                  src="/スクリーンショット 2025-04-27 4.11.37.png"
+                  alt="WorkShere"
                   width={600}
                   height={800}
                   className="w-full h-full object-cover"
@@ -192,8 +192,8 @@ const Portfolio = () => {
             <div className="bg-[#e8d0d0] overflow-hidden rounded-lg shadow-lg">
               <div className="h-64 bg-gray-300">
                 <Image
-                  src="/api/placeholder/600/400"
-                  alt="Weather App"
+                  src="/IMG_8880.PNG"
+                  alt="LINE食材レシピ提案アプリ"
                   width={600}
                   height={800}
                   className="w-full h-full object-cover"
