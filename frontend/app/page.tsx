@@ -108,12 +108,13 @@ const Portfolio = () => {
               About
             </h2>
             <p className="text-lg text-gray-700 mb-6">
-              プログラミングと医療現場での経験を融合させ、ユーザー視点を大切にした開発に取り組むエンジニアです。Ms.
-              Engineerプログラミングスクールを2025年2月に卒業し、複数のチーム開発を通じてフロントエンド・バックエンド両方のスキルを習得しました。調剤薬局での約6年の勤務経験から培った患者様対応力とタスク管理能力を活かし、技術だけでなく実際のユーザーに寄り添った開発を目指しています
+              はじめまして、飯田麻奈美と申します。
+              2025年2月にMs.Engineerプログラミングスクールを卒業したばかりのバックエンドエンジニア志望です。
+              スクールでの半年間で、フロントエンド、バックエンド、インフラと幅広く学習し、複数のチーム開発プロジェクトに参加してきました。特にPythonやNode.jsを使用したサーバーサイド開発に興味を持ち、バックエンドエンジニアとしてのキャリアを目指しています。
             </p>
             <p className="text-lg text-gray-700">
-              特にNext.jsとTypeScriptに焦点を当て、モダンなウェブ開発技術の基礎を身につけてきました。
-              デザイン性と使いやすさを両立させたウェブサイト制作に情熱を持っています。
+              チーム開発では、コミュニケーションを大切にしながら、効率的な開発フローの構築にも取り組みました。技術だけでなく、ユーザーにとって価値のあるサービスを作ることを常に意識しています。
+              現在は新たな環境でエンジニアとしての一歩を踏み出すべく、転職活動中です。学習意欲が高く、常に新しい技術にチャレンジする姿勢を大切にしています。
             </p>
           </div>
         </section>
@@ -138,21 +139,50 @@ const Portfolio = () => {
               </div>
               <div className="p-6">
                 <h3 className="text-2xl font-light text-gray-700 mb-2">
-                  Todo App
+                  WorkShere
                 </h3>
                 <p className="text-gray-600 mb-4">
-                  React HooksとTypeScriptを使用したシンプルなTodoアプリ。
-                  タスクの追加、編集、削除機能を実装しています。
+                  育休から復職する社員をサポートするためのAIチャットプラットフォーム。キャリアサマリーレポート、復職プランの自動生成、企業向け面談ガイダンスなどの機能を提供します。
                 </p>
                 <div className="flex flex-wrap gap-2">
                   <span className="px-2 py-1 bg-gray-200 text-gray-700 rounded text-sm">
-                    React
+                    Next.js
                   </span>
                   <span className="px-2 py-1 bg-gray-200 text-gray-700 rounded text-sm">
                     TypeScript
                   </span>
                   <span className="px-2 py-1 bg-gray-200 text-gray-700 rounded text-sm">
-                    CSS
+                    Tailwind CSS
+                  </span>
+                  <span className="px-2 py-1 bg-gray-200 text-gray-700 rounded text-sm">
+                    FastAPI
+                  </span>
+                  <span className="px-2 py-1 bg-gray-200 text-gray-700 rounded text-sm">
+                    Python
+                  </span>
+                  <span className="px-2 py-1 bg-gray-200 text-gray-700 rounded text-sm">
+                    MySQL
+                  </span>
+                  <span className="px-2 py-1 bg-gray-200 text-gray-700 rounded text-sm">
+                    Firebase
+                  </span>
+                  <span className="px-2 py-1 bg-gray-200 text-gray-700 rounded text-sm">
+                    Redis
+                  </span>
+                  <span className="px-2 py-1 bg-gray-200 text-gray-700 rounded text-sm">
+                    StripeAPI
+                  </span>
+                  <span className="px-2 py-1 bg-gray-200 text-gray-700 rounded text-sm">
+                    AWS
+                  </span>
+                  <span className="px-2 py-1 bg-gray-200 text-gray-700 rounded text-sm">
+                    Docker
+                  </span>
+                  <span className="px-2 py-1 bg-gray-200 text-gray-700 rounded text-sm">
+                    GitHub
+                  </span>
+                  <span className="px-2 py-1 bg-gray-200 text-gray-700 rounded text-sm">
+                    CI/CD
                   </span>
                 </div>
               </div>
@@ -171,21 +201,29 @@ const Portfolio = () => {
               </div>
               <div className="p-6">
                 <h3 className="text-2xl font-light text-gray-700 mb-2">
-                  Weather App
+                  LINE食材レシピ提案アプリ
                 </h3>
                 <p className="text-gray-600 mb-4">
-                  Next.jsで実装した天気予報アプリ。
-                  外部APIを使用して現在の天気と予報を表示します。
+                  LINEを使用して入力した食材のレシピを提案してくれる自動生成アプリです。
                 </p>
                 <div className="flex flex-wrap gap-2">
                   <span className="px-2 py-1 bg-gray-200 text-gray-700 rounded text-sm">
-                    Next.js
+                    FastAPI
                   </span>
                   <span className="px-2 py-1 bg-gray-200 text-gray-700 rounded text-sm">
-                    TypeScript
+                    Python
                   </span>
                   <span className="px-2 py-1 bg-gray-200 text-gray-700 rounded text-sm">
-                    Tailwind
+                    LINE Bot
+                  </span>
+                  <span className="px-2 py-1 bg-gray-200 text-gray-700 rounded text-sm">
+                    PostgeSQL
+                  </span>
+                  <span className="px-2 py-1 bg-gray-200 text-gray-700 rounded text-sm">
+                    GitHub
+                  </span>
+                  <span className="px-2 py-1 bg-gray-200 text-gray-700 rounded text-sm">
+                    CI/CD
                   </span>
                 </div>
               </div>
@@ -206,10 +244,7 @@ const Portfolio = () => {
               </h3>
               <div className="flex flex-wrap gap-3">
                 <span className="px-4 py-2 bg-white text-gray-700 rounded-full text-lg shadow-sm">
-                  HTML
-                </span>
-                <span className="px-4 py-2 bg-white text-gray-700 rounded-full text-lg shadow-sm">
-                  CSS
+                  HTML / CSS
                 </span>
                 <span className="px-4 py-2 bg-white text-gray-700 rounded-full text-lg shadow-sm">
                   JavaScript
@@ -231,14 +266,37 @@ const Portfolio = () => {
 
             <div className="mb-10">
               <h3 className="text-2xl font-light text-gray-700 mb-6">
+                Backend
+              </h3>
+              <div className="flex flex-wrap gap-3">
+                <span className="px-4 py-2 bg-white text-gray-700 rounded-full text-lg shadow-sm">
+                  Express.js
+                </span>
+                <span className="px-4 py-2 bg-white text-gray-700 rounded-full text-lg shadow-sm">
+                  FastAPI
+                </span>
+                <span className="px-4 py-2 bg-white text-gray-700 rounded-full text-lg shadow-sm">
+                  Python
+                </span>
+                <span className="px-4 py-2 bg-white text-gray-700 rounded-full text-lg shadow-sm">
+                  MySQL
+                </span>
+                <span className="px-4 py-2 bg-white text-gray-700 rounded-full text-lg shadow-sm">
+                  PostgreSQL
+                </span>
+              </div>
+            </div>
+
+            <div className="mb-10">
+              <h3 className="text-2xl font-light text-gray-700 mb-6">
                 Tools & Others
               </h3>
               <div className="flex flex-wrap gap-3">
                 <span className="px-4 py-2 bg-white text-gray-700 rounded-full text-lg shadow-sm">
-                  Git
+                  GitHub
                 </span>
                 <span className="px-4 py-2 bg-white text-gray-700 rounded-full text-lg shadow-sm">
-                  GitHub
+                  CI/CD
                 </span>
                 <span className="px-4 py-2 bg-white text-gray-700 rounded-full text-lg shadow-sm">
                   VS Code
@@ -247,7 +305,16 @@ const Portfolio = () => {
                   Figma
                 </span>
                 <span className="px-4 py-2 bg-white text-gray-700 rounded-full text-lg shadow-sm">
-                  Responsive Design
+                  Firebase
+                </span>
+                <span className="px-4 py-2 bg-white text-gray-700 rounded-full text-lg shadow-sm">
+                  Redis
+                </span>
+                <span className="px-4 py-2 bg-white text-gray-700 rounded-full text-lg shadow-sm">
+                  StripeAPI
+                </span>
+                <span className="px-4 py-2 bg-white text-gray-700 rounded-full text-lg shadow-sm">
+                  AWS
                 </span>
               </div>
             </div>
@@ -264,59 +331,39 @@ const Portfolio = () => {
               Contact
             </h2>
 
-            <form className="space-y-6">
-              <div>
-                <label
-                  htmlFor="name"
-                  className="block text-lg text-gray-700 mb-2"
+            <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-6 text-center">
+              <div className="flex justify-center mb-4">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="h-12 w-12 text-yellow-500"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
                 >
-                  Name
-                </label>
-                <input
-                  type="text"
-                  id="name"
-                  className="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-gray-500"
-                  placeholder="Your Name"
-                />
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"
+                  />
+                </svg>
               </div>
-
-              <div>
-                <label
-                  htmlFor="email"
-                  className="block text-lg text-gray-700 mb-2"
+              <h3 className="text-xl font-medium text-gray-800 mb-2">
+                現在メンテナンス中
+              </h3>
+              <p className="text-gray-600 mb-4">
+                お問い合わせフォームは現在実装中です。ご不便をおかけして申し訳ありません。
+              </p>
+              <p className="text-gray-600">
+                フォームが利用できない間は、こちらにご連絡ください：{" "}
+                <a
+                  href="mailto:your.email@example.com"
+                  className="text-gray-800 font-medium hover:underline"
                 >
-                  Email
-                </label>
-                <input
-                  type="email"
-                  id="email"
-                  className="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-gray-500"
-                  placeholder="your.email@example.com"
-                />
-              </div>
-
-              <div>
-                <label
-                  htmlFor="message"
-                  className="block text-lg text-gray-700 mb-2"
-                >
-                  Message
-                </label>
-                <textarea
-                  id="message"
-                  rows={6}
-                  className="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-gray-500"
-                  placeholder="Your message here..."
-                />
-              </div>
-
-              <button
-                type="submit"
-                className="w-full py-3 px-6 bg-gray-800 text-white rounded-lg hover:bg-gray-700 transition duration-300"
-              >
-                Send Message
-              </button>
-            </form>
+                  manami.iid@gmail.com
+                </a>
+              </p>
+            </div>
           </div>
         </section>
       </main>
@@ -324,26 +371,14 @@ const Portfolio = () => {
       {/* Footer */}
       <footer className="bg-gray-800 text-white p-8 text-center">
         <p className="text-lg">
-          © {new Date().getFullYear()} Your Name. All rights reserved.
+          © {new Date().getFullYear()} Manami Iida. All rights reserved.
         </p>
         <div className="flex justify-center space-x-4 mt-4">
           <a
-            href="#"
+            href="https://github.com/ShiroILuca"
             className="text-white hover:text-gray-300 transition duration-200"
           >
             GitHub
-          </a>
-          <a
-            href="#"
-            className="text-white hover:text-gray-300 transition duration-200"
-          >
-            LinkedIn
-          </a>
-          <a
-            href="#"
-            className="text-white hover:text-gray-300 transition duration-200"
-          >
-            Twitter
           </a>
         </div>
       </footer>
