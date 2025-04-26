@@ -15,7 +15,7 @@ const Portfolio = () => {
     <div className="min-h-screen font-light">
       {/* ヘッダー */}
       <header className="fixed top-0 left-0 w-full p-6 flex justify-between items-center z-50 bg-[#e8d0d0] bg-opacity-90">
-        <div className="text-gray-700 text-2xl italic">Your Name</div>
+        <div className="text-gray-700 text-2xl italic">Manami Iida</div>
         <button onClick={toggleMenu} className="text-gray-700 z-50">
           {menuOpen ? <X size={24} /> : <Menu size={24} />}
         </button>
@@ -79,10 +79,11 @@ const Portfolio = () => {
         {/* Hero Section */}
         <section className="min-h-screen bg-[#e8d0d0] flex flex-col items-center justify-center text-center px-4">
           <h1 className="text-6xl md:text-8xl font-light italic text-gray-700 mb-6">
-            Your Name
+            Manami Iida
           </h1>
           <p className="text-xl md:text-2xl text-gray-600 max-w-2xl">
-            Frontend Developer specializing in React and TypeScript
+            With six months of experience learning full-stack development, I am
+            actively seeking opportunities as an engineer.
           </p>
         </section>
 
@@ -107,8 +108,8 @@ const Portfolio = () => {
               About
             </h2>
             <p className="text-lg text-gray-700 mb-6">
-              プログラミングスクールで半年間学んだ知識とスキルを活かし、フロントエンド開発者として
-              キャリアをスタートさせたいと考えています。
+              プログラミングと医療現場での経験を融合させ、ユーザー視点を大切にした開発に取り組むエンジニアです。Ms.
+              Engineerプログラミングスクールを2025年2月に卒業し、複数のチーム開発を通じてフロントエンド・バックエンド両方のスキルを習得しました。調剤薬局での約6年の勤務経験から培った患者様対応力とタスク管理能力を活かし、技術だけでなく実際のユーザーに寄り添った開発を目指しています
             </p>
             <p className="text-lg text-gray-700">
               特にNext.jsとTypeScriptに焦点を当て、モダンなウェブ開発技術の基礎を身につけてきました。
