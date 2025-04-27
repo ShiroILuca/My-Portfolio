@@ -3,6 +3,7 @@ import React from "react";
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
 import Image from "next/image";
+import Contact from "./components/Contact";
 
 const Portfolio = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -69,7 +70,7 @@ const Portfolio = () => {
       {/* オーバーレイ（メニューオープン時） */}
       {menuOpen && (
         <div
-          className="fixed inset-0 bg-black bg-opacity-50 z-30"
+          className="fixed inset-0 bg-transparent z-30"
           onClick={toggleMenu}
         />
       )}
@@ -322,50 +323,7 @@ const Portfolio = () => {
         </section>
 
         {/* Contact Section */}
-        <section
-          id="contact"
-          className="min-h-screen p-8 md:p-16 bg-white flex items-center justify-center"
-        >
-          <div className="max-w-2xl w-full">
-            <h2 className="text-4xl font-light italic text-gray-700 mb-10 text-center">
-              Contact
-            </h2>
-
-            <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-6 text-center">
-              <div className="flex justify-center mb-4">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="h-12 w-12 text-yellow-500"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"
-                  />
-                </svg>
-              </div>
-              <h3 className="text-xl font-medium text-gray-800 mb-2">
-                現在メンテナンス中
-              </h3>
-              <p className="text-gray-600 mb-4">
-                お問い合わせフォームは現在実装中です。ご不便をおかけして申し訳ありません。
-              </p>
-              <p className="text-gray-600">
-                フォームが利用できない間は、こちらにご連絡ください：{" "}
-                <a
-                  href="mailto:your.email@example.com"
-                  className="text-gray-800 font-medium hover:underline"
-                >
-                  manami.iid@gmail.com
-                </a>
-              </p>
-            </div>
-          </div>
-        </section>
+        <Contact />
       </main>
 
       {/* Footer */}
@@ -377,9 +335,7 @@ const Portfolio = () => {
           <a
             href="https://github.com/ShiroILuca"
             className="text-white hover:text-gray-300 transition duration-200"
-          >
-            GitHub
-          </a>
+          ></a>
         </div>
       </footer>
     </div>
