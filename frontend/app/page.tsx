@@ -3,7 +3,6 @@ import React from "react";
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
 import Image from "next/image";
-import Head from "next/head";
 
 const Portfolio = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -14,11 +13,6 @@ const Portfolio = () => {
 
   return (
     <div className="min-h-screen font-light">
-      <Head>
-        <title>Manami Iida - Portfolio</title>
-        <meta name="description" content="Manami Iida's portfolio website" />
-      </Head>
-
       {/* ヘッダー */}
       <header className="fixed top-0 left-0 w-full p-6 flex justify-between items-center z-50 bg-[#e8d0d0] bg-opacity-90">
         <div className="text-gray-700 text-2xl italic">Manami Iida</div>
