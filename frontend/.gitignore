@@ -41,6 +41,6 @@ yarn-error.log*
 next-env.d.ts
 
 # public
-public/IMG_3597.png
-public/スクリーンショット 2025-04-27 4.11.37.png
-public/IMG_8880.PNG
+# public/IMG_3597.png
+# public/スクリーンショット 2025-04-27 4.11.37.png
+# public/IMG_8880.PNG
