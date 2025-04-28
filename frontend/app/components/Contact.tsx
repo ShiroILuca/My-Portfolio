@@ -1,3 +1,5 @@
+// 連絡先セクション
+
 import React from "react";
 
 const Contact = () => {
