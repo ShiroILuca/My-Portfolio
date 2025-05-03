@@ -38,7 +38,7 @@ const PersonalProjects: React.FC = () => {
               href="https://store.line.me/stickershop/author/4414914/ja"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-block px-4 py-2 bg-white text-[#a6684c] rounded-full hover:bg-[#f5ebe6] transition-colors shadow-sm"
+              className="inline-block px-4 py-2 bg-[#06C755] text-white rounded-full hover:bg-[#05b04c] transition-colors shadow-sm"
             >
               LINEスタンプを見る
             </Link>
