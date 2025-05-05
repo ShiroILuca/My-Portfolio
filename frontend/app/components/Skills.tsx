@@ -53,6 +53,12 @@ const Skills: React.FC = () => {
             <span className="px-4 py-2 bg-white text-gray-700 rounded-full text-lg shadow-sm">
               PostgreSQL
             </span>
+            <span className="px-4 py-2 bg-white text-gray-700 rounded-full text-lg shadow-sm">
+              Prisma
+            </span>
+            <span className="px-4 py-2 bg-white text-gray-700 rounded-full text-lg shadow-sm">
+              SQLAlchemy
+            </span>
           </div>
         </div>
 
