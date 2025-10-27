@@ -25,7 +25,7 @@ const About: React.FC = () => {
         <h2 className="text-4xl font-light italic text-gray-700 mb-8">About</h2>
         <p className="text-lg text-gray-700 mb-6">
           はじめまして、飯田麻奈美と申します。
-          Ms.Engineerプログラミングスクールを卒業し、バックエンドエンジニアとしてのキャリアをスタートさせるべく転職活動中です。
+          Ms.Engineerプログラミングスクールを卒業し、エンジニアとしてのキャリアをスタートさせるべく転職活動中です。
         </p>
         <p className="text-lg text-gray-700">
           スクールでの半年間で、フロントエンド、バックエンド、インフラと幅広く学習し、複数のチーム開発プロジェクトに参加してきました。
